@@ -1,0 +1,189 @@
+/* Colors used across the page */
+:root {
+    --green: #2E8B57;
+    --dark-green: #1F4A38;
+    --gold: #C99A3E;
+    --background: rgb(234, 227, 227);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    margin: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: var(--dark-green);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0 0 8px;
+}
+
+.tagline {
+    margin: 0 0 20px;
+    color: var(--gold);
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--gold);
+}
+
+/* Sections */
+section {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: var(--green);
+    margin-bottom: 15px;
+    border-bottom: 3px solid var(--green);
+    display: inline-block;
+}
+
+/* Image */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Places cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: var(--background);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card h3 {
+    color: var(--dark-green);
+    margin-top: 0;
+}
+
+.location {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 4px;
+}
+
+.map-link {
+    font-size: 14px;
+    color: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map-link:hover {
+    text-decoration: underline;
+}
+
+/* Food list */
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.food-list li {
+    background: var(--green);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--green);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--dark-green);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Mobile: stack the place cards */
+@media (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
