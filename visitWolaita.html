@@ -151,159 +151,63 @@
             <div class="container">
 
                 <div class="section-heading">
-
                     <div>
-                        <p class="section-label">EXPLORE</p>
-
+                        <p class="section-label">EXPLORE WOLAITA</p>
                         <h2>Places worth discovering</h2>
                     </div>
 
                     <p>
-                        Explore natural, cultural and historical places
-                        across Wolaita.
+                        Find mountains, waterfalls, archaeological sites,
+                        natural formations and other places across Wolaita.
                     </p>
+                </div>
+
+
+                <!-- Search -->
+                <div class="explore-controls">
+
+                    <div class="search-box">
+                        <input
+                            type="search"
+                            id="destination-search"
+                            placeholder="Search destinations..."
+                        >
+                    </div>
+
+                    <div class="filter-buttons">
+
+                        <button class="filter-btn active" data-category="all">
+                            All
+                        </button>
+
+                        <button class="filter-btn" data-category="nature">
+                            Nature
+                        </button>
+
+                        <button class="filter-btn" data-category="waterfall">
+                            Waterfalls
+                        </button>
+
+                        <button class="filter-btn" data-category="heritage">
+                            Heritage
+                        </button>
+
+                        <button class="filter-btn" data-category="culture">
+                            Culture
+                        </button>
+
+                    </div>
 
                 </div>
 
 
-                <div class="destination-grid">
-
-                    <!-- Damota -->
-                    <article class="destination-card">
-
-                        <div class="destination-image">
-                            <div class="image-placeholder">
-                                Damota Mountain
-                            </div>
-                        </div>
-
-                        <div class="destination-content">
-
-                            <span class="tag">Nature</span>
-
-                            <h3>Mount Damota</h3>
-
-                            <p>
-                                One of Wolaita's most prominent natural
-                                landmarks. The mountain rises to nearly
-                                3,000 metres and is closely connected with
-                                the landscape and history of the area.
-                            </p>
-
-                            <a
-                                href="https://www.google.com/maps/search/Mount+Damota+Wolaita"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View location →
-                            </a>
-
-                        </div>
-
-                    </article>
+                <!-- JavaScript will generate destinations here -->
+                <div id="destination-grid" class="destination-grid"></div>
 
 
-                    <!-- Ajora -->
-                    <article class="destination-card">
-
-                        <div class="destination-image">
-                            <div class="image-placeholder">
-                                Ajora Falls
-                            </div>
-                        </div>
-
-                        <div class="destination-content">
-
-                            <span class="tag">Waterfall</span>
-
-                            <h3>Ajora Falls</h3>
-
-                            <p>
-                                Twin waterfalls formed by the Ajancho and
-                                Skoke rivers, surrounded by the natural
-                                landscape of Boloso Bombe.
-                            </p>
-
-                            <a
-                                href="https://www.google.com/maps/search/Ajora+Falls+Wolaita"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View location →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Mochena Borago -->
-                    <article class="destination-card">
-
-                        <div class="destination-image">
-                            <div class="image-placeholder">
-                                Mochena Borago
-                            </div>
-                        </div>
-
-                        <div class="destination-content">
-
-                            <span class="tag">Heritage</span>
-
-                            <h3>Mochena Borago</h3>
-
-                            <p>
-                                An archaeological rockshelter located on
-                                the southwestern slope of Mount Damota,
-                                offering a glimpse into the deep human
-                                history of the region.
-                            </p>
-
-                            <a
-                                href="https://www.google.com/maps/search/Mochena+Borago+Wolaita"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View location →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Natural Bridge -->
-                    <article class="destination-card">
-
-                        <div class="destination-image">
-                            <div class="image-placeholder">
-                                Bedessa Bridge
-                            </div>
-                        </div>
-
-                        <div class="destination-content">
-
-                            <span class="tag">Nature</span>
-
-                            <h3>Bedessa Bridge</h3>
-
-                            <p>
-                                A remarkable landmark connecting communities across a deep and beautiful landscape.It stands as a symbol of connection, resilience, and progress for the people of Damot Weyde.
-                            </p>
-
-                            <a
-                                href="https://maps.app.goo.gl/xELpX4ZUQu3gM3JB9"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View location →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
+                <p id="no-results" class="no-results">
+                    No destinations found.
+                </p>
 
             </div>
 
