@@ -3,91 +3,610 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit Wolaita 4</title>
+
+    <meta
+        name="description"
+        content="Visit Wolaita — discover the landscapes, culture, food, history and destinations of Wolaita, Ethiopia."
+    >
+
+    <title>Visit Wolaita | Discover the Heart of Wolaita</title>
+
     <link rel="stylesheet" href="visitWolaita.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Visit Wolaita</h1>
-        <p class="tagline">Green mountains, warm people</p>
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
 
-        <nav>
-            <ul>
+        <nav class="navbar container">
+
+            <a href="#" class="logo">
+                Visit<span>Wolaita</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Open navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#places">Places to Visit</a></li>
-                <li><a href="#food">Traditional Foods</a></li>
+                <li><a href="#destinations">Explore</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#food">Food</a></li>
                 <li><a href="#plan">Plan Your Visit</a></li>
             </ul>
+
         </nav>
+
     </header>
 
-    <section id="about">
-        <h2>About Wolaita</h2>
-        <p><strong>Wolaita</strong> is known for its culture, history, and stunning landscape. It is also known for its <em>green mountains</em>, fertile land, and welcoming people. The administrative center is <mark>Sodo</mark>.</p>
-        <figure>
-            <img src="wolaita_pic2.PNG" alt="Wolaita's beautiful landscape">
-            <figcaption>Wolaita's beautiful landscape</figcaption>
-        </figure>
-    </section>
 
-    <section id="places">
-        <h2>Top Places to Visit</h2>
-        <div class="card-grid">
-            <div class="card">
-                <h3>Damota Mountain</h3>
-                <p>The zone's namesake peak, with a view over every valley below.</p>
-                <p class="location">📍 ~14 km east of Sodo</p>
-                <a class="map-link" href="https://www.google.com/maps/search/Damota+Mountain+Wolaita" target="_blank">View on map</a>
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section id="home" class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content container">
+
+                <p class="eyebrow">WELCOME TO WOLaita</p>
+
+                <h1>
+                    Discover the beauty of
+                    <span>Wolaita</span>
+                </h1>
+
+                <p class="hero-text">
+                    From green mountains and waterfalls to rich traditions,
+                    remarkable history and welcoming communities — discover
+                    a place worth experiencing.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#destinations" class="btn btn-primary">
+                        Explore Wolaita
+                    </a>
+
+                    <a href="#plan" class="btn btn-outline">
+                        Plan Your Visit
+                    </a>
+                </div>
+
             </div>
-            <div class="card">
-                <h3>Badessa Bridge</h3>
-                <p>A quiet, well-known crossing between the highlands and valley towns.</p>
-                <p class="location">📍 Badessa, Wolaita Zone</p>
-                <a class="map-link" href="https://www.google.com/maps/search/Badessa+Bridge+Wolaita" target="_blank">View on map</a>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+        <section id="about" class="section about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="images/wolaita_pic2.png"
+                        alt="Aerial view of Wolaita Sodo"
+                    >
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">ABOUT WOLaita</p>
+
+                    <h2>
+                        A place of nature,
+                        culture and history
+                    </h2>
+
+                    <p>
+                        Wolaita is an area of southern Ethiopia known for
+                        its distinctive culture, productive highlands,
+                        beautiful landscapes and strong agricultural
+                        traditions.
+                    </p>
+
+                    <p>
+                        Wolaita Sodo serves as the administrative center
+                        of Wolaita Zone and provides a convenient starting
+                        point for exploring the surrounding destinations.
+                    </p>
+
+                    <div class="about-facts">
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Nature</span>
+                        </div>
+
+                        <div>
+                            <strong>02</strong>
+                            <span>Culture</span>
+                        </div>
+
+                        <div>
+                            <strong>03</strong>
+                            <span>History</span>
+                        </div>
+
+                        <div>
+                            <strong>04</strong>
+                            <span>Food</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div class="card">
-                <h3>Statues of the Heroes of Wolaita</h3>
-                <p>Monuments honoring the leaders who shaped the region's history.</p>
-                <p class="location">📍 Sodo town center</p>
-                <a class="map-link" href="https://www.google.com/maps/search/Wolaita+Heroes+Statue+Sodo" target="_blank">View on map</a>
+
+        </section>
+
+
+        <!-- ================= DESTINATIONS ================= -->
+        <section id="destinations" class="section destinations">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">EXPLORE</p>
+
+                        <h2>Places worth discovering</h2>
+                    </div>
+
+                    <p>
+                        Explore natural, cultural and historical places
+                        across Wolaita.
+                    </p>
+
+                </div>
+
+
+                <div class="destination-grid">
+
+                    <!-- Damota -->
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+                            <div class="image-placeholder">
+                                Damota Mountain
+                            </div>
+                        </div>
+
+                        <div class="destination-content">
+
+                            <span class="tag">Nature</span>
+
+                            <h3>Mount Damota</h3>
+
+                            <p>
+                                One of Wolaita's most prominent natural
+                                landmarks. The mountain rises to nearly
+                                3,000 metres and is closely connected with
+                                the landscape and history of the area.
+                            </p>
+
+                            <a
+                                href="https://www.google.com/maps/search/Mount+Damota+Wolaita"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View location →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Ajora -->
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+                            <div class="image-placeholder">
+                                Ajora Falls
+                            </div>
+                        </div>
+
+                        <div class="destination-content">
+
+                            <span class="tag">Waterfall</span>
+
+                            <h3>Ajora Falls</h3>
+
+                            <p>
+                                Twin waterfalls formed by the Ajancho and
+                                Skoke rivers, surrounded by the natural
+                                landscape of Boloso Bombe.
+                            </p>
+
+                            <a
+                                href="https://www.google.com/maps/search/Ajora+Falls+Wolaita"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View location →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Mochena Borago -->
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+                            <div class="image-placeholder">
+                                Mochena Borago
+                            </div>
+                        </div>
+
+                        <div class="destination-content">
+
+                            <span class="tag">Heritage</span>
+
+                            <h3>Mochena Borago</h3>
+
+                            <p>
+                                An archaeological rockshelter located on
+                                the southwestern slope of Mount Damota,
+                                offering a glimpse into the deep human
+                                history of the region.
+                            </p>
+
+                            <a
+                                href="https://www.google.com/maps/search/Mochena+Borago+Wolaita"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View location →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Natural Bridge -->
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+                            <div class="image-placeholder">
+                                Bedessa Bridge
+                            </div>
+                        </div>
+
+                        <div class="destination-content">
+
+                            <span class="tag">Nature</span>
+
+                            <h3>Bedessa Bridge</h3>
+
+                            <p>
+                                A remarkable landmark connecting communities across a deep and beautiful landscape.It stands as a symbol of connection, resilience, and progress for the people of Damot Weyde.
+                            </p>
+
+                            <a
+                                href="https://maps.app.goo.gl/xELpX4ZUQu3gM3JB9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View location →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
             </div>
-            <div class="card">
-                <h3>Nearby Villages</h3>
-                <p>A number of beautiful villages where the pace of life slows down.</p>
-                <p class="location">📍 Surrounding Sodo, various distances</p>
-                <a class="map-link" href="https://www.google.com/maps/search/Wolaita+Zone+villages" target="_blank">View on map</a>
+
+        </section>
+
+
+        <!-- ================= CULTURE ================= -->
+        <section id="culture" class="section culture">
+
+            <div class="container culture-grid">
+
+                <div>
+
+                    <p class="section-label">CULTURE & HERITAGE</p>
+
+                    <h2>
+                        Experience Wolaita
+                        beyond the landscape
+                    </h2>
+
+                    <p>
+                        Wolaita's identity is expressed through its language,
+                        music, dance, food, traditions and community life.
+                        A visit is not only about seeing places — it is
+                        also about experiencing the people and their culture.
+                    </p>
+
+                    <div class="culture-list">
+
+                        <div>
+                            <span>01</span>
+                            <div>
+                                <h3>Language</h3>
+                                <p>
+                                    Wolayttegna is widely spoken in
+                                    Wolaita.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            <div>
+                                <h3>Music & Dance</h3>
+                                <p>
+                                    Traditional music and dance form an
+                                    important part of celebrations and
+                                    community life.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            <div>
+                                <h3>Community</h3>
+                                <p>
+                                    Experience local markets, hospitality
+                                    and everyday life.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="culture-highlight">
+
+                    <div>
+                        <span>WOLaita</span>
+                        <h3>
+                            Where traditions
+                            meet the landscape.
+                        </h3>
+                    </div>
+
+                </div>
+
             </div>
+
+        </section>
+
+
+        <!-- ================= FOOD ================= -->
+        <section id="food" class="section food">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">LOCAL FLAVORS</p>
+                        <h2>Taste Wolaita</h2>
+                    </div>
+
+                    <p>
+                        Food is an important part of experiencing
+                        local culture.
+                    </p>
+
+                </div>
+
+
+                <div class="food-grid">
+
+                    <article class="food-card">
+                        <span>01</span>
+                        <h3>Kocho</h3>
+                        <p>
+                            A traditional food associated with enset,
+                            an important crop in the region.
+                        </p>
+                    </article>
+
+                    <article class="food-card">
+                        <span>02</span>
+                        <h3>Muchuwa</h3>
+                        <p>
+                            A traditional Wolaita dish worth discovering.
+                        </p>
+                    </article>
+
+                    <article class="food-card">
+                        <span>03</span>
+                        <h3>Raw Meat</h3>
+                        <p>
+                            Raw meat dishes are strongly associated with
+                            Wolaita cuisine and are part of the region's
+                            food identity.
+                        </p>
+                    </article>
+
+                    <article class="food-card">
+                        <span>04</span>
+                        <h3>Enset</h3>
+                        <p>
+                            Enset plays an important role in Wolaita's
+                            agricultural and food system.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY WOLaita ================= -->
+        <section class="section why">
+
+            <div class="container">
+
+                <div class="why-content">
+
+                    <p class="section-label">WHY VISIT?</p>
+
+                    <h2>
+                        One destination.
+                        Many experiences.
+                    </h2>
+
+                    <p>
+                        Whether you enjoy nature, culture, history,
+                        photography or simply discovering new places,
+                        Wolaita offers different experiences within
+                        one journey.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-grid">
+
+                    <div>
+                        <span>🏔</span>
+                        <h3>Nature</h3>
+                        <p>
+                            Mountains, waterfalls and green landscapes.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>🏛</span>
+                        <h3>History</h3>
+                        <p>
+                            Discover places connected to the region's past.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>🍽</span>
+                        <h3>Food</h3>
+                        <p>
+                            Explore distinctive local flavors.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>🤝</span>
+                        <h3>People</h3>
+                        <p>
+                            Experience local hospitality and community.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PLAN ================= -->
+        <section id="plan" class="section plan">
+
+            <div class="container plan-box">
+
+                <div>
+
+                    <p class="section-label">PLAN YOUR JOURNEY</p>
+
+                    <h2>
+                        Ready to explore Wolaita?
+                    </h2>
+
+                    <p>
+                        Start planning your journey through Wolaita.
+                        In future versions of VisitWolaita, you will
+                        be able to discover accommodations, restaurants,
+                        transport options, itineraries and more.
+                    </p>
+
+                </div>
+
+                <a href="#destinations" class="btn btn-primary">
+                    Start Exploring
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#" class="logo">
+                    Visit<span>Wolaita</span>
+                </a>
+
+                <p>
+                    Discover Wolaita — its places, people,
+                    culture and stories.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Explore</h3>
+
+                <a href="#about">About Wolaita</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#culture">Culture</a>
+                <a href="#food">Food</a>
+
+            </div>
+
+            <div>
+
+                <h3>Visit</h3>
+
+                <a href="#plan">Plan Your Visit</a>
+                <a href="#home">Back to top ↑</a>
+
+            </div>
+
         </div>
-    </section>
 
-    <section id="food">
-        <h2>Traditional Foods</h2>
-        <ul class="food-list">
-            <li>Kocho</li>
-            <li>Blando</li>
-            <li>Poshamuwa</li>
-            <li>Kurt</li>
-            <li>Mucho</li>
-        </ul>
-    </section>
 
-    <section id="plan">
-        <h2>Plan Your Visit</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name">
+        <div class="footer-bottom">
+            <p>
+                © 2026 Visit Wolaita. Built with love for Wolaita.
+            </p>
+        </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email">
-
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Visit Wolaita</p>
     </footer>
+
+
+    <script src="visitWolaita.js"></script>
 
 </body>
 </html>
+
+
+
+
