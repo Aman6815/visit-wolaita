@@ -9,11 +9,15 @@ const destinations = [
         category: "nature",
         tag: "Nature",
         description:
-            "One of Wolaita's most prominent mountains, rising to nearly 3,000 metres and located north of Wolaita Sodo.",
+            "One of Wolaita's most prominent mountains, rising to nearly 2,750 metres and located north of Wolaita Sodo.",
         location: "Sodo Zuria",
         distance: "≈ 12 km from Sodo",
+        coordinates: {
+            lat: 6.903583,
+            lng: 37.779389
+        },
         map:
-            "https://www.google.com/maps/search/Mount+Damota+Wolaita"
+            "https://www.google.com/maps?q=6.903583,37.779389"
     },
 
     {
