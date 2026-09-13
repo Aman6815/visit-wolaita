@@ -21,6 +21,7 @@ const destinations = [
     },
 
     {
+        
         name: "Ajora Falls",
         category: "waterfall",
         tag: "Waterfall",
