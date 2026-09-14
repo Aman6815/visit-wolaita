@@ -13,6 +13,7 @@ const destinations = [
         location: "Sodo Zuria",
         distance: "≈ 12 km from Sodo",
         coordinates: {
+            
             lat: 6.903583,
             lng: 37.779389
         },
