@@ -7,6 +7,7 @@ const destinations = [
     
     
     {
+        
         name: "Mount Damota",
         category: "nature",
         tag: "Nature",
